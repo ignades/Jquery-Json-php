@@ -28,7 +28,7 @@
 
 
 
-<h1>Formulario Entrada Clientes </h1> 
+<h1>Formulario Entrada Clientes JSON</h1> 
 </header>
 <section>
   
