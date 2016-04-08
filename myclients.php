@@ -1,7 +1,7 @@
 <?php
 
 /*
-$connection = mysql_connect("localhost", "root", "Ignazio01!"); // Establishing Connection with Server..
+$connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server..
 $db = mysql_select_db("formulario", $connection); // Selecting Database
 //etraggo le singole categories`
 $sqlcat="SELECT * FROM `clientes`  WHERE 1  order by id ASC";
