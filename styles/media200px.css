@@ -1,0 +1,187 @@
+ @media (min-width: 200px) {
+
+       .brand 
+      {
+        position: relative;
+        left: 50%;
+        top:50%;
+        margin-left: -50px !important;  /* 50% of your logo width */
+        display: block;
+       }
+       .navbar-brand>img 
+      {
+       max-height: 100%;
+       height: 100%;
+       width: 100px;
+       margin: 0 auto;
+       max-width: 100%;
+       height: auto;
+       }
+      .navbar-brand 
+       {  
+        left: 8%;
+        top:5px;
+        position: absolute;    
+        }
+
+      .page-header
+      {
+        margin:0px;
+        min-height: 120px;
+        max-height: 120px;
+        background-image: url('images/max_header.jpg') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        height:100%;
+        border:0px;
+      }
+
+       .cont_menu
+      { 
+         padding: 48px;
+      }
+
+
+   @font-face { font-family: Samuelstype; font-weight: bold; src: url('Samuelstype - BrooklynSamuelsFive-Bold.otf'); }
+
+   @font-face { font-family: Samuelstype2; font-weight: bold; src: url(' Samuelstype - BrooklynSamuelsFive-Fat.otf'); }
+       .menumaxx
+      {
+        width:120px;
+        text-align: right;
+      }
+
+      .pmenu
+      { 
+        width:120px;
+        font-family: Samuelstype; 
+        font-size: 24px !important;
+        text-align: right;
+        line-height: 0px;
+      }
+
+       div.tag 
+      {
+      position: absolute;
+      color: #FFF;
+      font-size: 15px;
+      font-family: Georgia, Times, serif;
+      display: inline-block;
+      border: 0px solid #324566;
+      border-radius: 0px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+       width:60px;
+      padding-top: 9px;
+      margin:2px;
+      top:-6px;
+      right:20px;
+      font-family: Samuelstype2; 
+      font-size: 13px !important; 
+      letter-spacing:0px;
+      text-decoration: none;
+      font-color:white;    
+      }
+
+      .closeButton
+     {   
+      position: absolute;
+      display:block;
+      float:right;
+      width:110px;
+      height:20px;
+      background:url('images/close.png') no-repeat center center;
+      font-color:white;
+      border: 0px;
+      top:20px;
+      right:0px;
+      text-align: left;
+      color:white;
+    }
+      .container-fluid
+    {
+     margin:0px !important; 
+    }
+
+    .administrador
+    {
+      background-image: url('images/administrador.jpg') ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      height:41px;
+    }
+
+    .cont_marketing
+    {
+      background-image: url('images/cont_marketing.jpg') ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      height:181px;
+    }
+
+     .cont_vendedor
+    {
+      background-image: url('images/vendedor.jpg') ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      height:181px;
+     } 
+
+     .cont_negocios
+     {
+      background-image: url('images/negocios.jpg') ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      height:181px;
+     } 
+
+      .cont_home
+     {
+      background-image: url('images/home.jpg') ;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      height:181px;
+     }
+      .men  
+     {         
+       color:#ffffff;
+       font-family: Samuelstype; 
+       font-size: 22px !important; 
+     }
+
+     .caret a:active span, a:active *.arrow 
+     {
+      color:red;
+     }
+      span
+     {
+       color:#ffffff;
+       font-family: Samuelstype; 
+       font-size: 22px !important; 
+     }
+/* end media 200px */
+  }
