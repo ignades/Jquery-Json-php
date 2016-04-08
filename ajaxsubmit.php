@@ -1,5 +1,5 @@
 <?php
-$connection = mysql_connect("localhost", "root", "Ignazio01!"); // Establishing Connection with Server..
+$connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server..
 $db = mysql_select_db("formulario", $connection); // Selecting Database
 //Fetching Values from URL
  $nombre=$_POST['nombre'];
